@@ -3,7 +3,7 @@ import Table from "react-bootstrap/Table";
 
 export const Stock = () => {
   return (
-    <Table Stock List>
+    <Table className="tables" Stock List>
       <thead>
         <tr>
           <th>#</th>
