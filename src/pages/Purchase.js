@@ -3,7 +3,7 @@ import Table from "react-bootstrap/Table";
 
 export const Purchase = () => {
   return (
-    <Table Purchase List>
+    <Table striped bordered hover variant="dark">
       <thead>
         <tr>
           <th>#</th>

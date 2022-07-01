@@ -1,7 +1,7 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
 
-export const Stock = () => {
+const Stock_New = () => {
   return (
     <Table striped bordered hover variant="dark">
       <thead>
@@ -21,21 +21,9 @@ export const Stock = () => {
           <td>@mdo</td>
           <td>l1</td>
         </tr>
-        <tr>
-          <td>2</td>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-          <td>l2</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-          <td>l3</td>
-        </tr>
       </tbody>
     </Table>
   );
 };
+
+export default Stock_New;
